@@ -61,8 +61,10 @@ export class ui extends Component {
     });
 
     return (
+      <div>
+      <h1 className='bg-primary text-center text-white p-3'>TODO-LIST </h1>
+
       <div className='container my-5'>
-        <h1 className='bg-primary text-center text-white p-3'>TODO-LIST </h1>
         <div class='input-group input-group-lg my-4'>
           <div class='input-group-prepend'>
             <span class='input-group-text' id='inputGroup-sizing-lg'>
@@ -217,6 +219,8 @@ export class ui extends Component {
           })}
         </div>
       </div>
+      </div>
+  
     );
   }
 }

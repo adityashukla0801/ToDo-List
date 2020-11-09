@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div className='overlay'>
         <Ui />
       </div>
     </Provider>
